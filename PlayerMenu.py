@@ -29,14 +29,3 @@ def execute_command():
 
     return choice
 
-# def main():
-#     while True:
-#         player_menu()
-#         choice = input("Please select an option: ")
-#         execute_command(choice)
-#         if choice == '5':
-#             break  # Thoát khỏi vòng lặp khi người dùng chọn thoát
-#
-#
-# if __name__ == "__main__":
-#     main()

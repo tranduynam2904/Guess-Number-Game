@@ -34,10 +34,11 @@ def guess_number_game():
                 print(f"\nNew Range from {smallest_number} to {highest_number}")
             else:
                 print(f"\nPlayer {player} wins! It is {random_number}")
+                time.sleep(5)
                 return  # End the game when someone win
-
             if smallest_number >= highest_number:
                 print(f"No one wins this round! The number was {random_number}")
+                time.sleep(5)
                 break  # Break the loop
 
 
